@@ -1368,6 +1368,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cronstruct@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "cronstruct@workspace:."
+  dependencies:
+    "@bitomic/eslint-config": ^1.2.0
+    "@commitlint/cli": ^17.6.3
+    "@commitlint/config-conventional": ^17.6.3
+    "@sapphire/shapeshift": ^3.8.2
+    "@types/node": ^18.16.5
+    "@typescript-eslint/eslint-plugin": ^5.59.2
+    "@typescript-eslint/parser": ^5.59.2
+    eslint: ^8.39.0
+    husky: ^8.0.3
+    lint-staged: ^13.2.2
+    rimraf: ^5.0.0
+    tsup: ^6.7.0
+    typescript: ^5.0.4
+  languageName: unknown
+  linkType: soft
+
 "cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
   version: 7.0.3
   resolution: "cross-spawn@npm:7.0.3"
@@ -4438,26 +4458,6 @@ __metadata:
   checksum: 2b687338684bf9645e9389ffdbe813fc5a2ddfede299d46fbe5ac80eb9a391e558b97861ba44d2256936ebe9d7f8135f6a38af1c76a5685eac4061008b2df57a
   languageName: node
   linkType: hard
-
-"yarn-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "yarn-template@workspace:."
-  dependencies:
-    "@bitomic/eslint-config": ^1.2.0
-    "@commitlint/cli": ^17.6.3
-    "@commitlint/config-conventional": ^17.6.3
-    "@sapphire/shapeshift": ^3.8.2
-    "@types/node": ^18.16.5
-    "@typescript-eslint/eslint-plugin": ^5.59.2
-    "@typescript-eslint/parser": ^5.59.2
-    eslint: ^8.39.0
-    husky: ^8.0.3
-    lint-staged: ^13.2.2
-    rimraf: ^5.0.0
-    tsup: ^6.7.0
-    typescript: ^5.0.4
-  languageName: unknown
-  linkType: soft
 
 "yn@npm:3.1.1":
   version: 3.1.1
