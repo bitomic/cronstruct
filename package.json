@@ -1,10 +1,10 @@
 {
   "name": "cronstruct",
+  "description": "Build cron expressions in a human readable manner.",
   "version": "1.0.0",
   "main": "dist/main.js",
   "author": "bitomic",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "hooks": "husky install .github/husky",
     "build": "rimraf tsconfig.tsbuildinfo dist && yarn tsc --listEmittedFiles --incremental",
@@ -13,10 +13,14 @@
     "lint:fix": "eslint src/ --fix --ext .ts --cache",
     "start": "yarn node dist/main.js"
   },
+  "files": [ "dist" ],
+  "keywords": [ "cron", "cron expression" ],
   "exports": {
     "import": "./dist/main.js",
     "require": "./dist/main.cjs"
   },
+  "repository": "github:bitomic/cronstruct",
+  "homepage": "https://github.com/bitomic/cronstruct#readme",
   "packageManager": "yarn@3.5.1",
   "devDependencies": {
     "@bitomic/eslint-config": "^1.2.0",
