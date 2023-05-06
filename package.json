@@ -13,12 +13,17 @@
     "lint:fix": "eslint src/ --fix --ext .ts --cache",
     "start": "yarn node dist/main.js"
   },
-  "files": [ "dist" ],
-  "keywords": [ "cron", "cron expression" ],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "cron",
+    "cron expression"
+  ],
   "exports": {
     "import": "./dist/main.js",
     "require": "./dist/main.cjs",
-    "types": "./dis/main.d.ts"
+    "types": "./dist/main.d.ts"
   },
   "repository": "github:bitomic/cronstruct",
   "homepage": "https://github.com/bitomic/cronstruct#readme",
