@@ -4,7 +4,7 @@ export type CronPart = `${ number }`
 	| '*'
 	| `*/${ number }`
 	| `${ number }-${ number }`
-	| `${ number }`[]
+	| Array<`${ number }`>
 
 export class CronToken {
 	/**
@@ -59,7 +59,8 @@ export class CronToken {
 	 * @since 1.0.0
 	 */
 	public list( ...args: number[] ): Cronstruct {
-		this.value = args.map( i => `${ this.validator.parse( i ) }` as `${ number }` )
+		// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion
+		this.value = args.map( i => `${ this.validator.parse( i ) }` as `${ number }`  )
 		return this.cron
 	}
 
@@ -109,7 +110,3 @@ export class Cronstruct {
 }
 
 export default Cronstruct
-
-console.log( new Cronstruct()
-.minute.at( 15 )
-.hour.every( 1 ).toString() )
