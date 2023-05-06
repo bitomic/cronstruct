@@ -1,7 +1,7 @@
 {
   "name": "cronstruct",
   "description": "Build cron expressions in a human readable manner.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/main.js",
   "author": "bitomic",
   "license": "MIT",
