@@ -17,7 +17,8 @@
   "keywords": [ "cron", "cron expression" ],
   "exports": {
     "import": "./dist/main.js",
-    "require": "./dist/main.cjs"
+    "require": "./dist/main.cjs",
+    "types": "./dis/main.d.ts"
   },
   "repository": "github:bitomic/cronstruct",
   "homepage": "https://github.com/bitomic/cronstruct#readme",
