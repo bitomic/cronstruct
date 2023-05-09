@@ -45,7 +45,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@sapphire/shapeshift": "^3.8.2",
+    "@sapphire/shapeshift": "^3.9.0",
     "tsup": "^6.7.0"
   }
 }
