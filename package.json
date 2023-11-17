@@ -46,6 +46,6 @@
   },
   "dependencies": {
     "@sapphire/shapeshift": "^3.9.3",
-    "tsup": "^6.7.0"
+    "tsup": "^7.3.0"
   }
 }
