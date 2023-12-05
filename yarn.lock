@@ -597,13 +597,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/shapeshift@npm:^3.9.3":
-  version: 3.9.3
-  resolution: "@sapphire/shapeshift@npm:3.9.3"
+"@sapphire/shapeshift@npm:^3.9.4":
+  version: 3.9.4
+  resolution: "@sapphire/shapeshift@npm:3.9.4"
   dependencies:
     fast-deep-equal: ^3.1.3
     lodash: ^4.17.21
-  checksum: f93ab924566dc20a066776128eeb3693b97a1576a359b61d396835541f2bf8ecb3f482ff406cc038a3a4bc266d5f9b9f9e1c733ddbf1cce2c97c729ce047b5e6
+  checksum: 680a06823f899753c230d676a0c4c4b45e5575329d3598fb243dd5777c491955a62dcba94aac35770327a5a1103ddee6ceb8fa99c6b88de3cdd313fe3bafb2d3
   languageName: node
   linkType: hard
 
@@ -1352,7 +1352,7 @@ __metadata:
     "@bitomic/eslint-config": ^1.3.0
     "@commitlint/cli": ^18.4.3
     "@commitlint/config-conventional": ^18.4.3
-    "@sapphire/shapeshift": ^3.9.3
+    "@sapphire/shapeshift": ^3.9.4
     "@types/node": ^20.10.3
     "@typescript-eslint/eslint-plugin": ^6.13.2
     "@typescript-eslint/parser": ^6.13.2
