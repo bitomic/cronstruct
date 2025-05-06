@@ -628,12 +628,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.15.3":
-  version: 22.15.3
-  resolution: "@types/node@npm:22.15.3"
+"@types/node@npm:^22.15.11":
+  version: 22.15.11
+  resolution: "@types/node@npm:22.15.11"
   dependencies:
     undici-types: ~6.21.0
-  checksum: 26618a9fdfb84de3841e898b7c5fd372e1c0bdb9adc3ec71c12c38dd07d4e73da14681924919d27ff509ebf3714b8de941a21f51c26146cc8aaae31561ca7a5c
+  checksum: dc6ba95a21d8312402adcecfe48c49ec8732e3c967ddf3386f16742e7773844ffecf0882e12273c60fc5476ef010ab1adae87f309cfcac53c4a636f13416c72e
   languageName: node
   linkType: hard
 
@@ -1313,7 +1313,7 @@ __metadata:
     "@commitlint/cli": ^19.8.0
     "@commitlint/config-conventional": ^19.8.0
     "@sapphire/shapeshift": ^3.9.7
-    "@types/node": ^22.15.3
+    "@types/node": ^22.15.11
     "@typescript-eslint/eslint-plugin": ^8.32.0
     "@typescript-eslint/parser": ^8.32.0
     eslint: ^8.57.1
